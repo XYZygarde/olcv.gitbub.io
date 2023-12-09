@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Project</title>  
+        <link rel="stylesheet" type="text/css" href="cascade.css">      
+    </head>
+    <body>
+        <header class="head">
+           <p class="logo" onclick="rel()">My WebFolio</p>
+            <nav class="navigation">
+                <a class="click" href="#homeDiv" id="home">Home</a>
+                <!--Each container has id and it's point-->
+                <a class="click" href="#aboutDiv" id="aboutme">About Me</a>
+                <a class="click" href="#contactDiv" id="contacts">Contacts</a>
+                <a class="click" href="#projectDiv" id="projects">Gallery</a>
+                <a class="click" href="#updateDiv" id="updates">Updates</a>
+            </nav>
+        </header>
+        
+     
+        <div class="homepage" id="homeDiv">
+            <h1 class="home-title">Welcome to My WebFolio</h1>
+               <p class="home-message">
+                Hi, I'm Christian Ancog, BSIT student. This is my website portfolio  
+                act as my resume. <br>Being Software  Engineer and Web Developer are 
+                my passion. I hope you enjoy my project</p>  
+            <img src="dphome.jpg" class="home-user">
+                 
+        </div>
+        
+        <!--POINT LOCATION of about container -->
+        <div class="substi-1" id="aboutDiv">
+            <span></span>
+        </div>
+
+        <div class="about-me" >
+            <h1 class="about-title">ABOUT ME</h1>
+              <p class="about-content">
+                Hi, my name is Christian Ihao Ancog, I'm a 1st year BSIT or <i>Bachelor of Science in Information 
+                Technology Student</i> from Quezon City University. You can call me Chan, Cyan, or call me in
+                my firstname. I have 3 years experience in programming but I'm still learning. 
+            </p>
+        </div>
+   
+        <div class="add-info">
+            <h1 class="about-title" id="switch">OTHER INFO</h1>
+              <textarea type="text" class="info-content" id="void" value="" readonly></textarea>
+                <div class="dot-btn">
+                  <input type="radio" class="dot-click-e"  name="choice" id="option1" value="option1" checked> <!--Educational Background-->
+                  <input type="radio" class="dot-click-s"  name="choice" id="option2" value="option2"> <!--Skills -->
+                  <input type="radio" class="dot-click-a"  name="choice" id="option3" value="option3"> <!--Achievements-->
+            </div> 
+        </div>
+        
+         <!--POINT LOCATION of contact container -->
+         <div class="substi-2" id="contactDiv">
+            <span></span>
+        </div>
+        <div class="contact-con">
+          <h1 class="contact-title">CONTACTS</h1>
+           <ul class="contact-list">
+              <li class="c-list"><a href="#contactDiv" class="ref">christianix37@gmail.com</a></li>
+              <li class="c-list"><a href="https://www.facebook.com/kensei.mugurim13" class="ref">Christian Ancog</a></li>
+              <li class="c-list"><a href="https://www.instagram.com/cyannn_17/" class="ref">cyannn_17</a></li>
+              <li class="c-list"><a href="#contactDiv" class="ref">Christian Ancog</a></li>
+              <li class="c-list"><a href="#contactDiv" class="ref">09279182419</a></li>
+           </ul>
+           <div class="messaging-con">
+              <h1 class="mess-title">MESSAGE ME</h1> 
+                <form class="message-form">
+                     <input class="inp-1" type="text" placeholder="Your name"><br>
+                     <textarea class="inp-2" placeholder="Your message"></textarea><br>
+                     <input class="inp-3" type="submit">
+                </form>
+           </div>
+        </div>
+
+         <!--POINT LOCATION of gallery container -->
+         <div class="substi-3" id="projectDiv">
+            <span></span>
+        </div>
+        
+        <div class="gallery-con">
+            <h1 class="gallery-title">GALLERY</h1>
+        </div>
+    
+    </body>
+    <script src="CVsystem.js"></script>
+</html>
